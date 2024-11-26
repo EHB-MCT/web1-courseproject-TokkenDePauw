@@ -1,0 +1,60 @@
+body {
+	background-color: #00a6bf;
+	margin: 0px;
+	font-family: Arial, sans-serif;
+}
+
+.wrapper {
+	text-align: center;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 5px;
+	background-color: #000;
+}
+
+.logo a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.nav-links {
+	display: flex;
+	gap: 20px;
+	list-style: none;
+	padding-right: 200px;
+}
+
+.nav-links li a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.nav-links li a:hover {
+	color: #00a6bf;
+}
+
+.social-icon img {
+	height: 30px;
+	width: 30px;
+	padding: 0px 5px 0px 5px;
+}
+
+.hamburger img {
+	width: 30px;
+	height: auto;
+	cursor: pointer;
+}
+
+.close-menu {
+	float: left;
+	margin-left: -30px;
+	margin-top: -50px;
+}

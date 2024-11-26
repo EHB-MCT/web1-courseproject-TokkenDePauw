@@ -1,1 +1,113 @@
-<!-- nothing here -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Rick Sanchez</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="menu.css" />
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<header>
+				<nav class="navbar">
+					<div class="hamburger" id="hamburger">
+						<img src="photos/menu.png" alt="hamburger menu" />
+					</div>
+
+					<!--    Made by Erik Terwan    -->
+					<!--   24th of November 2015   -->
+					<!--        MIT License        -->
+					<nav role="navigation">
+						<div id="menuToggle">
+							<!--
+	  A fake / hidden checkbox is used as click reciever,
+	  so you can use the :checked selector on it.
+	  -->
+							<input type="checkbox" id="menuCheckbox" />
+
+							<!--
+	  Some spans to act as a hamburger.
+	  
+	  They are acting like a real hamburger,
+	  not that McDonalds stuff.
+	  -->
+
+							<!--
+	  Too bad the menu has to be inside of the button
+	  but hey, it's pure CSS magic.
+	  -->
+
+							<ul id="menu">
+								<!-- 
+		We can use a label here to close upon click (when doing same page navigation), this
+		does require a slight bit of JS.
+		-->
+								<div class="hamburger close-menu" id="hamburger">
+									<img src="photos/menu.png" alt="hamburger menu" />
+								</div>
+								<li>
+									<a href="index.html">
+										<label for="menuCheckbox" onclick="this.parentNode.click();"
+											>Home</label
+										>
+									</a>
+								</li>
+								<li>
+									<a href="ervaring.html 	">
+										<label for="menuCheckbox" onclick="this.parentNode.click();"
+											>Ervaring</label
+										>
+									</a>
+								</li>
+								<li>
+									<a href="vaardigheden.html">
+										<label for="menuCheckbox" onclick="this.parentNode.click();"
+											>Vaardigheden</label
+										>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+
+					<ul class="nav-links" id="nav-links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="ervaring.html">Ervaring</a></li>
+						<li><a href="vaardigheden.html">Vaardigheden</a></li>
+					</ul>
+
+					<div class="social-icon">
+						<a
+							href="https://www.instagram.com/rickandmorty/"
+							target="_blank"
+							rel="noopener noreferrer"
+							class="sociale-media"
+						>
+							<img src="photos/instagram.png" alt="Instagram-logo" />
+						</a>
+						<a
+							href="https://www.facebook.com/RickandMorty/"
+							target="_blank"
+							rel="noopener noreferrer"
+							class="sociale-media"
+						>
+							<img src="photos/facebook.png" alt="Facebook" />
+						</a>
+						<a
+							href="https://x.com/rickandmorty/"
+							target="_blank"
+							rel="noopener noreferrer"
+							class="sociale-media"
+						>
+							<img src="photos/x.png" alt="x" />
+						</a>
+					</div>
+				</nav>
+			</header>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
