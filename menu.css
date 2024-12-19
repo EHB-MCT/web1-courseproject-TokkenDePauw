@@ -41,7 +41,7 @@ p {
 	/* You can also use relative/absolute here if you want to stay on the top */
 	position: fixed;
 	top: 50px;
-	left: 50px;
+	left: 130px;
 
 	z-index: 1;
 
@@ -135,7 +135,7 @@ p {
    */
 #menu {
 	position: absolute;
-	max-width: 400px;
+	max-width: 230px;
 	width: 100vw;
 	height: 110vh;
 	margin: -100px 0 0 -50px;
@@ -147,6 +147,7 @@ p {
 	list-style-type: none;
 	-webkit-font-smoothing: antialiased;
 	/* to stop flickering of text in safari */
+	right: -100px;
 
 	transform-origin: 0% 0%;
 	transform: translate(-100%, 0);
