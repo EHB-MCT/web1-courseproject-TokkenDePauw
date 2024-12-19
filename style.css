@@ -72,7 +72,7 @@ body {
 .rick-title-menu h1 {
 	font-size: 130px;
 	color: #00a6bf;
-	margin: 0px;
+	margin: 0 0 0 100px;
 	padding-top: 100px;
 }
 
@@ -89,11 +89,15 @@ body {
 	text-align: left;
 }
 
-.information h2 {
+.information-menu h2 {
 	color: #00a6bf;
 	font-size: 40px;
+	margin-left: 100px;
+	float: left;
 }
 
-.information p {
+.information-menu p {
 	font-size: 20px;
+	margin: 0 50% 50px 100px;
+	float: left;
 }
