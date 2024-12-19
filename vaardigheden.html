@@ -1,1 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Rick Sanchez</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="menu.css" />
+	</head>
 
+	<body>
+		<div class="wrapper">
+			<header>
+				<nav class="navbar">
+					<div class="hamburger" id="hamburger">
+						<img src="photos/menu.png" alt="hamburger menu" />
+					</div>
+					<nav role="navigation">
+						<div id="menuToggle">
+							<input type="checkbox" id="menuCheckbox" />
+							<ul id="menu">
+								<div class="hamburger close-menu" id="hamburger">
+									<img src="photos/menu.png" alt="hamburger menu" />
+								</div>
+								<li>
+									<a href="index.html">
+										<label for="menuCheckbox" onclick="this.parentNode.click();"
+											>Home</label
+										>
+									</a>
+								</li>
+								<li>
+									<a href="ervaring.html 	">
+										<label for="menuCheckbox" onclick="this.parentNode.click();"
+											>Ervaring</label
+										>
+									</a>
+								</li>
+								<li>
+									<a href="vaardigheden.html">
+										<label for="menuCheckbox" onclick="this.parentNode.click();"
+											>Vaardigheden</label
+										>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+
+					<ul class="nav-links" id="nav-links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="ervaring.html">Ervaring</a></li>
+						<li><a href="vaardigheden.html">Vaardigheden</a></li>
+					</ul>
+
+					<div class="social-icon">
+						<a
+							href="https://www.instagram.com/rickandmorty/"
+							target="_blank"
+							rel="noopener noreferrer"
+							class="sociale-media"
+						>
+							<img src="photos/instagram.png" alt="Instagram-logo" />
+						</a>
+						<a
+							href="https://www.facebook.com/RickandMorty/"
+							target="_blank"
+							rel="noopener noreferrer"
+							class="sociale-media"
+						>
+							<img src="photos/facebook.png" alt="Facebook" />
+						</a>
+						<a
+							href="https://x.com/rickandmorty/"
+							target="_blank"
+							rel="noopener noreferrer"
+							class="sociale-media"
+						>
+							<img src="photos/x.png" alt="x" />
+						</a>
+					</div>
+				</nav>
+			</header>
+		</div>
+	</body>
+</html>

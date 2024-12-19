@@ -73,16 +73,18 @@ body {
 	font-size: 130px;
 	color: #00a6bf;
 	margin: 0 0 0 100px;
-	padding-top: 100px;
+	padding-top: 250px;
 }
 
 .rick-image-menu {
 	max-width: 100%;
 	height: auto;
+	margin-top: 0;
 }
 
-.information {
+.information-menu {
 	display: flex;
+	align-items: flex-start;
 	flex-wrap: wrap;
 	background-color: #000;
 	max-width: 100%;
@@ -92,7 +94,7 @@ body {
 .information-menu h2 {
 	color: #00a6bf;
 	font-size: 40px;
-	margin-left: 100px;
+	margin: 50px 0 25px 100px;
 	float: left;
 }
 
@@ -100,4 +102,12 @@ body {
 	font-size: 20px;
 	margin: 0 50% 50px 100px;
 	float: left;
+}
+
+.information-menu img {
+	height: 375px;
+	width: auto;
+	margin-top: -405px;
+	margin-left: auto;
+	margin-right: 100px;
 }
