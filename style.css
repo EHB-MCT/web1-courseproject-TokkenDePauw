@@ -75,9 +75,12 @@ body {
 	align-items: center;
 }
 
-.rick-title-menu h1 {
+h1 {
 	font-size: 130px;
 	color: #00a6bf;
+}
+
+.rick-title-menu h1 {
 	margin: 0 0 0 100px;
 	padding-top: 250px;
 }
@@ -97,15 +100,30 @@ body {
 	text-align: left;
 }
 
-.information-menu h2 {
+h2 {
 	color: #00a6bf;
 	font-size: 40px;
+	font-weight: 750;
+}
+
+h3 {
+	color: #00bcd4;
+	font-size: 30px;
+	font-weight: 750;
+}
+
+p {
+	font-size: 20px;
+	text-align: left;
+	color: #e0e0e0;
+}
+
+.information-menu h2 {
 	margin: 50px 0 25px 100px;
 	float: left;
 }
 
 .information-menu p {
-	font-size: 20px;
 	margin: 0 50% 50px 100px;
 	float: left;
 }
@@ -127,4 +145,79 @@ body {
 	height: 410px;
 	width: auto;
 	padding: 20px;
+}
+
+.skills h2 {
+	padding: 20px 0 0 100px;
+	margin-right: 20px;
+	align-items: self-start;
+	display: flex;
+	flex-direction: column;
+}
+
+.skills h3 {
+	padding: 0 0 0 100px;
+	margin-top: 25px;
+	align-items: self-start;
+	display: flex;
+	flex-direction: column;
+}
+
+.skills p {
+	color: #e0e0e0;
+	padding: 0 0 50px 100px;
+	margin-top: -15px;
+	margin-right: 50%;
+	align-items: self-start;
+	flex-direction: column;
+}
+
+.skills img {
+	width: 400px;
+	height: auto;
+	float: right;
+	margin-top: -50px;
+	padding: 0 150px 0 0;
+}
+
+.experiences {
+	background-color: #000;
+	padding-top: 75px;
+	padding-bottom: 40px;
+}
+
+.experiences h2 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 0 0 0 760px;
+}
+
+.experiences h3 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 0 0 0 160px;
+	margin-top: 25px;
+}
+
+.experiences p {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0 100px 50px 0;
+	margin-top: -10px;
+	margin-left: 50%;
+}
+
+.experiences img {
+	width: 600px;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	align-items: self-start;
+	float: left;
+	padding: 0 0 0 0;
 }
