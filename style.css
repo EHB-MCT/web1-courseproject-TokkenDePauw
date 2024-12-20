@@ -17,7 +17,8 @@ body {
 	padding: 10px 5px;
 	background-color: #000;
 	text-align: center;
-	padding-left: 100px;
+	padding-left: 125px;
+	padding-right: 125px;
 }
 
 .logo a {
@@ -51,6 +52,10 @@ body {
 	padding: 0px 5px 0px 5px;
 }
 
+.nav-links li a:hover {
+	color: #00a6bf;
+}
+
 .hamburger img {
 	width: 30px;
 	height: auto;
@@ -59,7 +64,6 @@ body {
 
 .close-menu {
 	float: left;
-	margin-left: -30px;
 	margin-top: -55px;
 	padding-left: 80px;
 }
@@ -115,11 +119,12 @@ body {
 }
 
 .gallery {
-	margin-top: 500px;
+	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
 .photos img {
-	height: 400px;
+	height: 410px;
 	width: auto;
 	padding: 20px;
 }
