@@ -3,7 +3,24 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Rick Sanchez</title>
+		<meta
+			name="description"
+			content="Get to know Rick Sanchez, the multidimensional genius! Explore his journey, personality, and unique story in this immersive introduction."
+		/>
+		<title>Rick Sanchez Curriculum Vitae | Home Page</title>
+
+		<meta
+			property="og:title"
+			content="Meet Rick Sanchez - The Multiverse Genius"
+		/>
+		<meta
+			property="og:description"
+			content="Discover the life and personality of Rick Sanchez, the smartest man in the multiverse. Learn what makes him unique and extraordinary."
+		/>
+		<meta property="og:image" content="URL_TO_HOME_PAGE_IMAGE" />
+		<meta property="og:url" content="YOUR_HOMEPAGE_URL" />
+		<meta property="og:type" content="website" />
+
 		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="menu.css" />
 	</head>
@@ -13,39 +30,44 @@
 			<header>
 				<nav class="navbar">
 					<div class="hamburger" id="hamburger">
-						<img src="photos/menu.png" alt="hamburger menu" />
-					</div>
-					<nav role="navigation">
-						<div id="menuToggle">
-							<input type="checkbox" id="menuCheckbox" />
-							<ul id="menu">
-								<div class="hamburger close-menu" id="hamburger">
+						<nav role="navigation">
+							<div id="menuToggle">
+								<input type="checkbox" id="menuCheckbox" />
+								<label for="menuCheckbox">
 									<img src="photos/menu.png" alt="hamburger menu" />
-								</div>
-								<li>
-									<a href="index.html">
-										<label for="menuCheckbox" onclick="this.parentNode.click();"
-											>Home</label
-										>
-									</a>
-								</li>
-								<li>
-									<a href="skills and experiences.html">
-										<label for="menuCheckbox" onclick="this.parentNode.click();"
-											>Skills & Experiences</label
-										>
-									</a>
-								</li>
-								<li>
-									<a href="galley.html">
-										<label for="menuCheckbox" onclick="this.parentNode.click();"
-											>Gallery</label
-										>
-									</a>
-								</li>
-							</ul>
-						</div>
-					</nav>
+								</label>
+								<ul id="menu">
+									<li>
+										<a href="index.html">
+											<label
+												for="menuCheckbox"
+												onclick="this.parentNode.click();"
+												>Home</label
+											>
+										</a>
+									</li>
+									<li>
+										<a href="skills and experiences.html">
+											<label
+												for="menuCheckbox"
+												onclick="this.parentNode.click();"
+												>Skills & Experiences</label
+											>
+										</a>
+									</li>
+									<li>
+										<a href="galley.html">
+											<label
+												for="menuCheckbox"
+												onclick="this.parentNode.click();"
+												>Gallery</label
+											>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</nav>
+					</div>
 
 					<ul class="nav-links" id="nav-links">
 						<li><a href="index.html">Home</a></li>

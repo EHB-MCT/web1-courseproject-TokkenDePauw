@@ -3,7 +3,15 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Rick Sanchez</title>
+		<meta name="description" content="Explore a curated photo gallery of Rick Sanchez, showcasing his adventures, moments, and unique interdimensional lifestyle." />
+		<title>Rick Sanchez Curriculum Vitae | Photo Gallery </title>
+
+		<meta property="og:title" content="Rick Sanchez Photo Gallery" />
+		<meta property="og:description" content="Browse through iconic images of Rick Sanchez and his adventures in the multiverse. A visual journey of genius and chaos!" />
+		<meta property="og:image" content="URL_TO_GALLERY_PAGE_IMAGE" />
+		<meta property="og:url" content="YOUR_GALLERY_PAGE_URL" />
+		<meta property="og:type" content="website" />
+		
 		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="menu.css" />
 	</head>
@@ -13,39 +21,39 @@
 			<header>
 				<nav class="navbar">
 					<div class="hamburger" id="hamburger">
+			<nav role="navigation">
+				<div id="menuToggle">
+					<input type="checkbox" id="menuCheckbox" />
+					<label for="menuCheckbox">					
 						<img src="photos/menu.png" alt="hamburger menu" />
-					</div>
-					<nav role="navigation">
-						<div id="menuToggle">
-							<input type="checkbox" id="menuCheckbox" />
-							<ul id="menu">
-								<div class="hamburger close-menu" id="hamburger">
-									<img src="photos/menu.png" alt="hamburger menu" />
-								</div>
-								<li>
-									<a href="index.html">
-										<label for="menuCheckbox" onclick="this.parentNode.click();"
-											>Home</label
-										>
-									</a>
-								</li>
-								<li>
-									<a href="skills and experiences.html">
-										<label for="menuCheckbox" onclick="this.parentNode.click();"
-											>Skills & Experiences</label
-										>
-									</a>
-								</li>
-								<li>
-									<a href="galley.html">
-										<label for="menuCheckbox" onclick="this.parentNode.click();"
-											>Gallery</label
-										>
-									</a>
-								</li>
-							</ul>
-						</div>
-					</nav>
+					</label>
+					<ul id="menu">
+						<li>
+							<a href="index.html">
+								<label for="menuCheckbox" onclick="this.parentNode.click();"
+									>Home</label
+								>
+							</a>
+						</li>
+						<li>
+							<a href="skills and experiences.html">
+								<label for="menuCheckbox" onclick="this.parentNode.click();"
+									>Skills & Experiences</label
+								>
+							</a>
+						</li>
+						<li>
+							<a href="galley.html">
+								<label for="menuCheckbox" onclick="this.parentNode.click();"
+									>Gallery</label
+								>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+							</div>
+
 
 					<ul class="nav-links" id="nav-links">
 						<li><a href="index.html">Home</a></li>
@@ -91,7 +99,6 @@
 					<img src="photos/Rick-pickle-rick.jpg" alt="Rick is a pickle" />
 					<img src="photos/Rick-middle-finger.jpg" alt="Ricks middle finger" />
 					<img src="photos/Rick-wine.jpg" alt="Rick is drinking wine" />
-					<img src="photos/Rick-murder.jpg" alt="Rick is a murder" />
 					<img src="photos/Rick-sunglasses.jpg" alt="Rick with sunglasses" />
 					<img src="photos/Rick-nature.jpg" alt="Rick in nature" />
 					<img src="photos/Rick-suit.jpg" alt="Rick with suit" />

@@ -10,6 +10,7 @@
  */
 
 body {
+	position: relative;
 	margin: 0;
 	padding: 0;
 
@@ -39,7 +40,6 @@ p {
 #menuToggle {
 	display: block;
 	/* You can also use relative/absolute here if you want to stay on the top */
-	position: fixed;
 	top: 50px;
 	left: 130px;
 
@@ -60,8 +60,9 @@ p {
 	color: #00a6bf;
 }
 
+/*onzichtbare knop*/
 #menuToggle input {
-	display: block;
+	display: none;
 	width: 40px;
 	height: 32px;
 	position: absolute;
@@ -94,6 +95,11 @@ p {
 
 	transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
 		background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+}
+
+#menuToggle label {
+	position: relative;
+	z-index: 1;
 }
 
 #menuToggle span:first-child {
@@ -135,22 +141,23 @@ p {
    */
 #menu {
 	position: absolute;
+	top: 0;
+	left: 0;
 	max-width: 300px;
 	width: 100vw;
-	height: 110vh;
-	margin: -100px 0 0 -50px;
-	padding: 50px;
-	padding-top: 125px;
+	height: 100vh;
+	padding: 0;
+	padding-top: 75px;
+	margin: 0;
 	box-sizing: border-box;
 	overflow-y: auto;
 	background: #ededed;
 	list-style-type: none;
 	-webkit-font-smoothing: antialiased;
 	/* to stop flickering of text in safari */
-	right: -165px;
 	transform-origin: 0% 0%;
 	transform: translate(-100%, 0);
-
+	opacity: 0.5;
 	transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
@@ -168,4 +175,15 @@ p {
    */
 #menuToggle input:checked ~ ul {
 	transform: none;
+}
+
+@media (max-width: 768px) {
+	#menu {
+		max-width: 768px;
+		transform: translateX(-100vw);
+		padding-top: 50px;
+	}
+	#menuToggle input {
+		left: 230px;
+	}
 }
